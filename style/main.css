@@ -1,0 +1,75 @@
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:200);
+* {
+  padding: 0;
+  margin: 0; }
+
+body {
+  width: 100%;
+  height: 100%;
+  overflow: hidden; }
+
+p, a, h3 {
+  font-size: 48px;
+  font-height: 72px;
+  color: #fff;
+  font-family: "Source Sans Pro", sans-serif; }
+
+p {
+  display: block;
+  -webkit-margin-before: 1em;
+  -webkit-margin-after: 1em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px; }
+
+a {
+  text-decoration: none;
+  transition: ease 200ms;
+  -webkit-transition: ease 200ms; }
+
+.margin-bottom-half {
+  margin-bottom: 10px; }
+
+.absolute {
+  position: absolute; }
+
+.relative {
+  position: relative; }
+
+.twitter {
+  background-color: #22D9E5; }
+
+.fb {
+  background-color: #3b5998; }
+
+.github {
+  background-color: #cccccc; }
+
+.spotify {
+  background-color: #2ebd59; }
+
+.container {
+  width: 100%;
+  height: 100%;
+  background-color: #99DBEC; }
+
+.container__p {
+  width: 30em;
+  height: 28em;
+  top: 10%;
+  left: 32.5%;
+  padding: 10px; }
+
+.hi {
+  color: #FFFFFF;
+  background-image: -webkit-gradient(linear, center top, center bottom, from(#FD7361), to(#FC467E));
+  background-image: -webkit-linear-gradient(top, #FD7361, #FC467E);
+  background-image: -moz-linear-gradient(top, #FD7361, #FC467E);
+  background-image: -o-linear-gradient(top, #FD7361, #FC467E);
+  background-image: -ms-linear-gradient(top, #FD7361, #FC467E);
+  background-image: linear-gradient(to bottom, #FD7361, #FC467E);
+  font: "Source Sans Pro", sans-serif;
+  padding: 10px 20px;
+  margin: 0px;
+  border-radius: 0px 25px 0px 25px; }
+
+/*# sourceMappingURL=main.css.map */
