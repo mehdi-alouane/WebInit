@@ -1,65 +1,33 @@
-@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:200);
-* {
-  padding: 0;
-  margin: 0; }
-
 body {
-  width: 100%;
-  height: 100%;
-  overflow: hidden; }
-
-p, a, h3 {
-  font-size: 48px;
-  font-height: 72px;
-  color: #fff;
-  font-family: "Source Sans Pro", sans-serif; }
-
-p {
-  display: block;
-  -webkit-margin-before: 1em;
-  -webkit-margin-after: 1em;
-  -webkit-margin-start: 0px;
-  -webkit-margin-end: 0px; }
-
-a {
+  margin: 0px;
+  padding: 0px;
+  background: #99DBEC;
+  color: #FFFFFF;
+  font: 300 48px/1.5em source-sans-pro, sans-serif;
+}
+a, a:link, a:visited {
   text-decoration: none;
-  transition: ease 200ms;
-  -webkit-transition: ease 200ms; }
-
-.margin-bottom-half {
-  margin-bottom: 10px; }
-
-.absolute {
-  position: absolute; }
-
-.relative {
-  position: relative; }
-
-.twitter {
-  background-color: #22D9E5; }
-
-.fb {
-  background-color: #3b5998; }
-
-.github {
-  background-color: #cccccc; }
-
-.spotify {
-  background-color: #2ebd59; }
-
-.container {
-  width: 100%;
-  height: 100%;
-  background-color: #99DBEC; }
-
-.container__p {
-  width: 30em;
-  height: 28em;
-  top: 10%;
-  left: 32.5%;
-  padding: 10px; }
-
-.hi {
+  outline: none;
+  color: #FFFFFF;
+  background: #22D9E5;
+  -webkit-transition: background 500ms ease-in;
+  -moz-transition: background 500ms ease-in;
+  -o-transition: background 500ms ease-in;
+  -ms-transition: background 500ms ease-in;
+  transition: background 500ms ease-in;
+}
+a:hover, a:active {
+  text-decoration: none;
+  outline: none;
+  color: #FFFFFF;
+  background: none;
+  -webkit-transition: background 500ms ease-in;
+  -moz-transition: background 500ms ease-in;
+  -o-transition: background 500ms ease-in;
+  -ms-transition: background 500ms ease-in;
+  transition: background 500ms ease-in;
+}
+.hi, a.hi:link, a.hi:visited, a.hi:hover, a.hi:active {
   color: #FFFFFF;
   background-image: -webkit-gradient(linear, center top, center bottom, from(#FD7361), to(#FC467E));
   background-image: -webkit-linear-gradient(top, #FD7361, #FC467E);
@@ -67,9 +35,130 @@ a {
   background-image: -o-linear-gradient(top, #FD7361, #FC467E);
   background-image: -ms-linear-gradient(top, #FD7361, #FC467E);
   background-image: linear-gradient(to bottom, #FD7361, #FC467E);
-  font: "Source Sans Pro", sans-serif;
+  font: 300 48px/1.5em source-sans-pro, sans-serif;
   padding: 10px 20px;
   margin: 0px;
-  border-radius: 0px 25px 0px 25px; }
-
-/*# sourceMappingURL=main.css.map */
+  border-radius: 0px 25px 0px 25px;
+}
+.blue, a.blue:link, a.blue:visited {
+  color: #FFFFFF;
+  background: #22D9E5;
+  -webkit-transition: background 500ms ease-in;
+  -moz-transition: background 500ms ease-in;
+  -o-transition: background 500ms ease-in;
+  -ms-transition: background 500ms ease-in;
+  transition: background 500ms ease-in;
+}
+a.blue:hover, a.blue:active {
+  color: #FFFFFF;
+  background: none;
+  -webkit-transition: background 500ms ease-out;
+  -moz-transition: background 500ms ease-out;
+  -o-transition: background 500ms ease-out;
+  -ms-transition: background 500ms ease-out;
+  transition: background 500ms ease-out;
+}
+.green, a.green:link, a.green:visited {
+  color: #FFFFFF;
+  background: #90D451;
+  -webkit-transition: background 500ms ease-in;
+  -moz-transition: background 500ms ease-in;
+  -o-transition: background 500ms ease-in;
+  -ms-transition: background 500ms ease-in;
+  transition: background 500ms ease-in;
+}
+a.green:hover, a.green:active {
+  color: #FFFFFF;
+  background: none;
+  -webkit-transition: background 500ms ease-out;
+  -moz-transition: background 500ms ease-out;
+  -o-transition: background 500ms ease-out;
+  -ms-transition: background 500ms ease-out;
+  transition: background 500ms ease-out;
+}
+.orange, a.orange:link, a.orange:visited {
+  color: #FFFFFF;
+  background: #DFC345;
+  -webkit-transition: background 500ms ease-in;
+  -moz-transition: background 500ms ease-in;
+  -o-transition: background 500ms ease-in;
+  -ms-transition: background 500ms ease-in;
+  transition: background 500ms ease-in;
+}
+a.orange:hover, a.orange:active {
+  color: #FFFFFF;
+  background: none;
+  -webkit-transition: background 500ms ease-out;
+  -moz-transition: background 500ms ease-out;
+  -o-transition: background 500ms ease-out;
+  -ms-transition: background 500ms ease-out;
+  transition: background 500ms ease-out;
+}
+.pink, a.pink:link, a.pink:visited {
+  color: #FFFFFF;
+  background: #F77FBE;
+  -webkit-transition: background 500ms ease-in;
+  -moz-transition: background 500ms ease-in;
+  -o-transition: background 500ms ease-in;
+  -ms-transition: background 500ms ease-in;
+  transition: background 500ms ease-in;
+}
+a.pink:hover, a.pink:active {
+  color: #FFFFFF;
+  background: none;
+  -webkit-transition: background 500ms ease-out;
+  -moz-transition: background 500ms ease-out;
+  -o-transition: background 500ms ease-out;
+  -ms-transition: background 500ms ease-out;
+  transition: background 500ms ease-out;
+}
+.fb, a.fb:link, a.fb:visited {
+  color: #FFFFFF;
+  background: #3b5998;
+  -webkit-transition: background 500ms ease-in;
+  -moz-transition: background 500ms ease-in;
+  -o-transition: background 500ms ease-in;
+  -ms-transition: background 500ms ease-in;
+  transition: background 500ms ease-in;
+}
+a.fb:hover, a.fb:active {
+  color: #FFFFFF;
+  background: none;
+  -webkit-transition: background 500ms ease-out;
+  -moz-transition: background 500ms ease-out;
+  -o-transition: background 500ms ease-out;
+  -ms-transition: background 500ms ease-out;
+  transition: background 500ms ease-out;
+}
+img {
+  max-width: 100%;
+  height: auto;
+  border: 0px;
+}
+li, ul {
+  list-style: disc;
+}
+article {
+  margin: 25px auto;
+  padding: 25px;
+  width: 500px;
+  color: #FFFFFF;
+  font: 300 48px/1.5em source-sans-pro, sans-serif;
+}
+@media screen and (max-width: 700px) {
+article {
+  margin: 25px auto;
+  padding: 25px;
+  width: auto;
+  color: #FFFFFF;
+  font: 300 48px/1.5em source-sans-pro, sans-serif;
+}
+}
+::selection {
+  background: #99DBEC;
+  color: #FFFFFF;
+}
+::-moz-selection {
+  background: #99DBEC;
+  color: #FFFFFF;
+}
