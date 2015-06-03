@@ -3,7 +3,7 @@ body {
   padding: 0px;
   background: #99DBEC;
   color: #FFFFFF;
-  font: 300 48px/1.5em source-sans-pro, sans-serif;
+  font: 300 48px/1.5em source-sans-pro, sans-serif !important;
 }
 a, a:link, a:visited {
   text-decoration: none;
