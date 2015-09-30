@@ -1,0 +1,98 @@
+@charset "UTF-8";
+/* 
+Start Stylesheet 
+Author :pro4medo@gmail.com;
+license : GPL;
+Version : 0.0.2;
+*/
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,500,700,900);
+.absolute {
+  position: absolute; }
+
+.relative {
+  position: relative; }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  font-family: "Roboto", sans-serif !important;
+  color: #757575;
+  overflow: hidden; }
+
+img {
+  display: inline-block; }
+
+a {
+  color: #03a9f4;
+  text-decoration: none; }
+
+.container {
+  width: 100%;
+  height: 100%;
+  background-color: #fafafa; }
+  .container .container_badge {
+    width: 100%;
+    height: 40%; }
+    .container .container_badge .avatar {
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+      left: 42.6%;
+      top: 40%; }
+      .container .container_badge .avatar:hover {
+        box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23); }
+  .container .container_info {
+    width: 100%;
+    height: 50%; }
+    .container .container_info .about {
+      text-align: center;
+      position: relative;
+      top: 14%;
+      left: 29%;
+      width: 42%; }
+      .container .container_info .about .title {
+        color: #03a9f4;
+        font-size: 28px;
+        font-family: "Roboto", sans-serif;
+        padding-bottom: 8px;
+        padding-top: 5px; }
+      .container .container_info .about .bio {
+        color: #757575;
+        padding: 15px;
+        /* Quote styling 
+        &:before{
+        	 content: "ΓÇ£";
+        }
+        &:after{
+        	content: "ΓÇ¥";
+        }
+        */ }
+    .container .container_info .links {
+      width: 40%;
+      height: 30%;
+      position: relative;
+      top: 14%;
+      left: 30.5%;
+      padding: 10px 5px;
+      font-size: 16px; }
+      .container .container_info .links .fb_link {
+        color: white;
+        padding: 5px 10px;
+        background-color: #3b5998; }
+      .container .container_info .links .twitter_link {
+        color: white;
+        padding: 5px 10px;
+        background-color: #00aced; }
+      .container .container_info .links .github_link {
+        color: white;
+        padding: 5px 10px;
+        background-color: #EEB999; }
+      .container .container_info .links .gplus_link {
+        color: white;
+        padding: 5px 10px;
+        background-color: #DD4B39; }
+
+/*# sourceMappingURL=main.css.map */
