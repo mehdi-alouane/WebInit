@@ -27,187 +27,56 @@ a{
 	width: 100%;
 	height: 100%;
 	background-color: $bg-color;
-	.container_badge{
-		width: 100%;
-		height: 40%;
-		.avatar{
-			width: 200px;
-			height: 200px;
-			border-radius: 50%;
-			box-shadow: $shadow-1;
-			left: 42.6%;top: 40%;
-			&:hover{
-				box-shadow: $shadow-2;
+	.card{
+		position : absolute;
+		top: 15%;
+		left: 30%;
+		height : 50%;
+		width: 40%;
+		background-color: $bg-color2;
+		box-shadow : $shadow;
+		.card_img{
+			background-image: url("http://www.topofandroid.com/wp-content/uploads/2015/05/Android-L-Material-Design-Wallpapers-5.png");
+			background-size: 546px 189px;
+			width: 100%;
+			height: 40%;
+			//-webkit-filter: blur(2px);
+			//filter: blur(2px);
+		}
+		.card_avatar{
+			.avatar{
+				position: absolute; 
+				border-radius : 50%;
+				width: 120px;
+				height : 120px;
+				top: 12%;
+				left: 38%;
+				z-index: 20;
+				filter : blur(0px);
 			}
-		}	
-	}
-	.container_info{
-		width: 100%;
-		height: 50%;
-		.about{
-			text-align: center;
-			position: relative;
-			top: 14%;
-			left: 29%;
-			width: 42%;
+		}
+		.card_content{
+			position: absolute;
+			top: 44%;
+			font-family: $roboto;
+			padding : 15px;
 			.title{
-				color: $font-color;
-				font-size: 28px;
 				font-family: $roboto;
-				padding-bottom: 8px;
-				padding-top: 5px;
-			}
-			.bio{
-				color: $fnt-color;
-				padding: 15px;
-				/* Quote styling 
-				&:before{
-					 content: "“";
-				}
-				&:after{
-					content: "”";
-				}
-				*/
-			}
-		}
-		.links{
-			width: 40%;
-			height: 30%; 
-			position: relative;
-			top: 14%;
-			left: 30.5%;
-			padding: 10px 5px;
-			font-size: 16px;
-			.fb_link{
-				color: white;
-				padding: 5px 10px;
-				background-color: $fb;
-			}
-			.twitter_link{
-				color: white;
-				padding: 5px 10px;
-				background-color: $twitter;
-			}
-			.github_link{
-				color: white;
-				padding: 5px 10px;
-				background-color: $github;
-			}
-			.gplus_link{
-				color: white;
-				padding: 5px 10px;
-				background-color: $gplus;
-			}
-		}
-	}
-}
-
-// CSS media query 
-@media (max-width: 800px){
-	.container{
-	width: 100%;
-	height: 100%;
-	background-color: $bg-color;
-	.container_badge{
-		width: 100%;
-		height: 40%;
-		.avatar{
-			width: 200px;
-			height: 200px;
-			border-radius: 50%;
-			box-shadow: $shadow-1;
-			left: 38%;top: 40%;
-			&:hover{
-				box-shadow: $shadow-2;
-			}
-		}	
-	}
-	.container_info{
-		width: 100%;
-		height: 50%;
-		.about{
-			text-align: center;
-			position: relative;
-			top: 10%;
-			left: 29%;
-			width: 42%;
-			.title{
-				color: $font-color;
-				font-size: 30px;
-				font-family: $roboto;
-			}
-			.bio{
-				color: $fnt-color;
-				padding: 10px;
-				width: 100%;
-			}
-		}
-		.links{
-			width: 68%;
-			height: 10%; 
-			position: relative;
-			top: 14%;
-			left: 15.5%;
-			padding: 10px 5px;
-			font-size: 16px;
-		}
-	}
-}
-}
-
-@media (max-width: 600px){
-	.container{
-	width: 100%;
-	height: 100%;
-	background-color: $bg-color;
-	.container_badge{
-		width: 100%;
-		height: 40%;
-		.avatar{
-			width: 200px;
-			height: 200px;
-			border-radius: 50%;
-			box-shadow: $shadow-1;
-			left: 34%;top: 40%;
-			&:hover{
-				box-shadow: $shadow-2;
-			}
-		}	
-	}
-	.container_info{
-		width: 100%;
-		height: 50%;
-		.about{
-			text-align: center;
-			position: relative;
-			top: 10%;
-			left: 29%;
-			width: 42%;
-			.title{
-				color: $font-color;
-				font-size: 30px;
-				font-family: $roboto;
-			}
-			.bio{
-				color: $fnt-color;
-				padding: 10px;
-				width: 100%;
-			}
-		}
-		.links{
-			width: 68%;
-			height: 10%; 
-			position: relative;
-			top: 14%;
-			left: 15.5%;
-			padding: 10px 5px;
-			font-size: 16px;
-			a{
-				display: block;
+				font-size: 26px;
 				text-align: center;
-				padding: 5px;
+			}
+			.content{
+				margin-top: 10px;
+				line-height:1.5;
 			}
 		}
+		.card_buttons{
+			position: absolute;
+			top: 88%;
+			//clear:both;
+			width: 100%;
+			height: 14%;
+			border-top: 1px solid #EEE;
+		}
 	}
-}
 }
