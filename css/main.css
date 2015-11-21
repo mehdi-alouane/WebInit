@@ -18,12 +18,24 @@ img { display: inline-block; }
 a { color: #03a9f4; text-decoration: none; }
 
 .container { width: 100%; height: 100%; background-color: #eeeeee; }
-.container .card { position: absolute; top: 15%; left: 30%; height: 50%; width: 40%; background-color: #FFFFFF; box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24); }
-.container .card .card_img { background-image: url("http://www.topofandroid.com/wp-content/uploads/2015/05/Android-L-Material-Design-Wallpapers-5.png"); background-size: 546px 189px; width: 100%; height: 40%; }
-.container .card .card_avatar .avatar { position: absolute; border-radius: 50%; width: 120px; height: 120px; top: 12%; left: 38%; z-index: 20; filter: blur(0px); }
+.container .card { position: absolute; top: 22%; left: 30%; height: 50%; width: 40%; background-color: #FFFFFF; box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24); }
+.container .card .card_img { background-image: url("http://www.topofandroid.com/wp-content/uploads/2015/05/Android-L-Material-Design-Wallpapers-5.png"); background-size: 546px 189px; width: 100%; height: 40%; box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24); }
+.container .card .card_avatar .avatar { position: absolute; border-radius: 50%; width: 120px; height: 120px; top: 12%; left: 38%; box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24); }
 .container .card .card_content { position: absolute; top: 44%; font-family: "Roboto", sans-serif; padding: 15px; }
 .container .card .card_content .title { font-family: "Roboto", sans-serif; font-size: 26px; text-align: center; }
 .container .card .card_content .content { margin-top: 10px; line-height: 1.5; }
-.container .card .card_buttons { position: absolute; top: 88%; width: 100%; height: 14%; border-top: 1px solid #EEE; }
+.container .card .card_buttons { position: absolute; top: 90%; left: 2%; width: 100%; height: 14%; }
+.container .card .card_buttons .link { padding: 6px 6px; background-color: #eee; color: #fff; font-family: "Roboto", sans-serif !important; font-size: 14px; transition: background-color 0.3s; -webkit-transition: background-color 0.3s; -moz-transition: background-color 0.3s; }
+.container .card .card_buttons .facebook { color: #3b5998; }
+.container .card .card_buttons .facebook:hover { background-color: #3b5998; color: white; box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24); }
+.container .card .card_buttons .twitter { color: #00aced; }
+.container .card .card_buttons .twitter:hover { background-color: #00aced; color: white; box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24); }
+.container .card .card_buttons .github { color: black; }
+.container .card .card_buttons .github:hover { background-color: #000; color: white; box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24); }
+.container .card .card_buttons .gplus { color: #DD4B39; }
+.container .card .card_buttons .gplus:hover { background-color: #DD4B39; color: white; box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24); }
+.container .card .card_buttons .fa { padding: 5px; font-weight: bold; }
+.container .blog_link { color: #c2c2c2; border-bottom: 1px solid #c2c2c2; font-size: 16px; position: absolute; top: 130%; left: 130%; width: 200px; height: 20px; padding: 5px; transition: color border 0.4s; }
+.container .blog_link:hover { color: #757575; border-bottom: 1px solid #757575; }
 
 /*# sourceMappingURL=main.css.map */
