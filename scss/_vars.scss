@@ -1,0 +1,53 @@
+// colors
+$forest   : #8FC6A1;
+$white    : #FFFFFF;
+$link     : #5183BC;
+$brown    : #aaaaaa;
+$facebook : #3b5998;
+$twitter  : #55acee;
+$google   : #dc4e41;
+$github   : #666666;
+$black    : #222;
+$grey     : #bbb;
+
+// fonts 
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,300italic,500,500italic,700);
+$roboto : 'Roboto', sans-serif;
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300,400,700,600);
+$opensans : 'Open Sans', sans-serif;
+// helpers 
+a{
+	text-decoration: none;
+	color: $link;
+}
+a,button,
+input[type="submit"]{
+	cursor: pointer;
+}
+li{
+	list-style: none;
+}
+.btn{
+	border-radius: 4px;
+	padding: 4px 8px;
+}
+.facebook{
+	background-color: $facebook;
+	color: $white;
+}
+.twitter{
+	background-color: $twitter;
+	color: $white;
+}
+.google{
+	background-color: $google;
+	color: $white;
+}
+.github{
+	background-color: $github;
+	color: $white;
+}
+.fa{
+	padding-right: 5px;
+}
