@@ -68,8 +68,7 @@ body {
     position: absolute;
     left: 50%;
     top: 50%;
-    -webkit-transform: translate(-50%, -50%);
-            transform: translate(-50%, -50%); }
+    transform: translate(-50%, -50%); }
     .container .card .avatar {
       margin: 0 auto;
       min-height: auto;
@@ -80,8 +79,7 @@ body {
         height: 120px;
         position: relative;
         left: 50%;
-        -webkit-transform: translate(-50%, 0%);
-                transform: translate(-50%, 0%); }
+        transform: translate(-50%, 0%); }
     .container .card .title h1 {
       text-align: center;
       font-weight: 600;
@@ -135,14 +133,12 @@ body {
       font-size: 13px; }
     .container .wrap .thumb .info {
       display: none;
-      -webkit-transform: translate(0, -20px);
-              transform: translate(0, -20px);
+      transform: translate(0, -20px);
       color: white;
       padding: 10px;
       font-size: 12px;
       font-weight: 300; }
     .container .wrap .thumb:hover .layer {
-      -webkit-transition: background-color .1s linear;
       transition: background-color .1s linear;
       background-color: rgba(0, 0, 0, 0.7); }
     .container .wrap .thumb:hover .title {

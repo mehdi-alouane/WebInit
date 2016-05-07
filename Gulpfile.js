@@ -25,17 +25,5 @@ gulp.task('browser-sync', function() {
     });
 });
 
-/*
-//autoprefixer task
-gulp.task('autoprefixer', function () {
-    return gulp.src('css/main.css')
-        .pipe(autoprefixer({
-            browsers: ['last 2 versions'],
-            cascade: false
-        }))
-        .pipe(gulp.dest('css/prefix'));
-});
-*/
-
 // the default task
 gulp.task('default', ['sass', 'watch', 'browser-sync']);
