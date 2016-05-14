@@ -1,23 +1,30 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="author" content="mehdi-alouane">
+  <title>Theory Thinking</title>
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,700,700italic,900,400italic,300italic,300' rel='stylesheet' type='text/css'>
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <div class="head-logo">
+        <h1>{ <i class="fa fa-flask"></i> Mehdi Alouane }</h1>
+      </div>
+      <div class="head-nav">
+        <li>
+          <a href="">Github</a>
+          <a href="">Twitter</a>
+          <a href="">About</a>
+        </li>
+      </div>
+    </header>
+  </div>
 
-<div class="home">
-
-  <h1 class="page-heading">Posts</h1>
-
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
-</div>
+  <script src="https://use.fontawesome.com/c31c726688.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.3/jquery.js"></script>
+</body>
+</html>
