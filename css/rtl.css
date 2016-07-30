@@ -1,0 +1,16 @@
+@import url(http://fonts.googleapis.com/earlyaccess/droidarabicnaskh.css);
+@import url(http://fonts.googleapis.com/earlyaccess/droidarabickufi.css);
+
+*,html,body{
+	direction: rtl;
+	text-align: right;
+	font-family: 'Droid Arabic Naskh', serif;
+}
+
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Droid Arabic Kufi', sans-serif;
+}
+
+p{
+	font-family: 'Droid Arabic Naskh', serif;
+}

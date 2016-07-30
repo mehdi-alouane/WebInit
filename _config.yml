@@ -1,0 +1,30 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+
+# إعدادات الموقع
+#أكتب هنا اسم الموقع
+title: مهدي علوان
+#أكتب هنا الإيميل الخاص بك/الموقع
+email: pro4medo@gmail.com
+#أكتب شرح رائع عن موقعك هنا. سوف يظهر في (head meta) الخاص بمستندك (من اجل نتائج بحث قووقل) و في شرح موقعك في ملف feed.xml
+
+description: مصمم ومطور ويب
+baseurl: "/webInit" # المسار الجانبي الخاص بموقعك مثلاً (/blog)
+url: "webinit.gitub.io" # هوستنيم و بروتوكول موقع
+twitter_username: medo_alouane
+github_username:  mehdi-alouane
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+
+# Outputting
+permalink: pretty
+
+liquid:
+  error_mode: warn
