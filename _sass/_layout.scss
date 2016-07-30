@@ -1,97 +1,31 @@
 /**
  * Site header
  */
- .html{
- direction:rtl;
-  }
 .site-header {
-    //border-top: 5px solid $grey-color-dark;
-    border-bottom: 4px solid $grey-color-light;
-    min-height: 200px;
-    background-color: $teal-color;
+    border-top: 5px solid $grey-color-dark;
+    border-bottom: 1px solid $grey-color-light;
+    min-height: 56px;
 
     // Positioning context for the mobile navigation icon
     position: relative;
 }
 
 .site-title {
-    position: absolute;
-    top: 50%;
-    right: 50%;
-    transform: translate(50%, 36%);
-    padding: 5px 10px;
-    font-size: 28px;
-    font-family: "Droid Arabic Kufi", serif;
+    font-size: 26px;
     font-weight: 300;
     line-height: 56px;
-    //border: 1px solid white;
     letter-spacing: -1px;
     margin-bottom: 0;
-    transition: color ease-In-Out 0.2s;
+    float: left;
 
     &,
     &:visited {
-        color: white;
+        color: $grey-color-dark;
     }
-    &:hover{
-      color: lighten($grey-color, 40%);
-    }
-}
-// On 600px
-@include media-query($on-palm) {
-  html,body{
-    overflow-x: hidden;
-  }
-  .site-title{
-    width: 100% !important;
-    margin-right: 22%;
-    font-size: 20px;
-    line-height: 3;
-  }
-  .avatar-img{
-    height: 100px;
-    width: 100%;
-  }
-}
-// On laptop query
-@include media-query($on-laptop) {
-  html,body{
-    overflow-x: hidden;
-  }
-  .site-title{
-    width: 100% !important;
-    margin-right: 25%;
-    font-size: 24px;
-    line-height: 2.5;
-  }
-}
-
-.avatar-wrapper{
-  width: 100%;
-  height: auto;
-  border: 1px solid white;
-}
-.avatar-img{
-  position: absolute;
-  top: 10%;
-  right: 50%;
-  transform: translate(50%, 8%);
-  height: auto;
-  width: auto;
-  max-width: 100px;
-  max-height: 100px;
-  background-size: cover;
-  margin: 0 auto;
-  border-radius: 80%;
-  transition: all ease-In-Out 0.2s;
-  border: 2px solid $grey-color-light;
-  &:hover{
-    border-color: $grey-color-light;
-  }
 }
 
 .site-nav {
-    float: left;
+    float: right;
     line-height: 56px;
 
     .menu-icon {
@@ -111,7 +45,7 @@
     @include media-query($on-palm) {
         position: absolute;
         top: 9px;
-        left: $spacing-unit / 2;
+        right: $spacing-unit / 2;
         background-color: $background-color;
         border: 1px solid $grey-color-light;
         border-radius: 5px;
@@ -119,7 +53,7 @@
 
         .menu-icon {
             display: block;
-            float: left;
+            float: right;
             width: 36px;
             height: 26px;
             line-height: 0;
@@ -166,7 +100,6 @@
 .site-footer {
     border-top: 1px solid $grey-color-light;
     padding: $spacing-unit 0;
-    background-color: lighten($grey-color-light, 5%);
 }
 
 .footer-heading {
@@ -268,7 +201,6 @@
  */
 .post-header {
     margin-bottom: $spacing-unit;
-    color: lighten(black, 35%);
 }
 
 .post-title {
@@ -283,9 +215,6 @@
 
 .post-content {
     margin-bottom: $spacing-unit;
-    p{
-      line-height: 2;
-    }
 
     h2 {
         font-size: 32px;
