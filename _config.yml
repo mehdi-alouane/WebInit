@@ -22,7 +22,7 @@ email: pro4medo@gmail.com
 #أكتب شرح رائع عن موقعك هنا. سوف يظهر في (head meta) الخاص بمستندك (من اجل نتائج بحث قووقل) و في شرح موقعك في ملف feed.xml
 
 description: مصمم و مطور ويب, هده مدونتي الشخصية حيث أنشر ماتعلمه يوميا.
-baseurl: "/webinit" # المسار الجانبي الخاص بموقعك مثلاً (/blog)
+baseurl: "/WebInit" # المسار الجانبي الخاص بموقعك مثلاً (/blog)
 url: "https://mehdi-alouane.github.io" # هوستنيم و بروتوكول موقع
 twitter_username: medo_alouane
 github_username:  mehdi-alouane
