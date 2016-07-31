@@ -5,17 +5,28 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'jekyll serve'. If you change this file, please restart the server process.
 
-# Site settings
-title: Your awesome title
-email: your-email@domain.com
-description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://yourdomain.com" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
+#مرحبا بك في جيكل!
+# ملف الكونفج/الإعدادات هذا معني بالإعدادات التي تأثر على المدونة ككل,
+# المتغيرات التي من المتوقع منك ان تقوم بإعدادها عند إستعمالك لأول مرة و نادراً ما ستحتاج ان تعدل عليها بعد ذلك
+# لأجل اسباب تقنية, هذا الملف *لن* يتم إعادة بناءة اوتوماتيكياً عندما تستخدم 'jekyll serve' اذا قمت بتعديل هذا الملف, الرجاء أعد تشغيل السيرفر او قم بإعادة بناءة عن طريق 'jekyll build'.
+
+
+
+
+
+# إعدادات الموقع
+#أكتب هنا اسم الموقع
+title: مهدي علوان
+#أكتب هنا الإيميل الخاص بك/الموقع
+email: pro4medo@gmail.com
+#أكتب شرح رائع عن موقعك هنا. سوف يظهر في (head meta) الخاص بمستندك (من اجل نتائج بحث قووقل) و في شرح موقعك في ملف feed.xml
+
+description: مصمم و مطور ويب, هده مدونتي الشخصية حيث أنشر ماتعلمه يوميا.
+baseurl: "/webinit" # المسار الجانبي الخاص بموقعك مثلاً (/blog)
+url: "https://mehdi-alouane.github.io" # هوستنيم و بروتوكول موقع
+twitter_username: medo_alouane
+github_username:  mehdi-alouane
 
 # Build settings
 markdown: kramdown
+highlighter: rouge

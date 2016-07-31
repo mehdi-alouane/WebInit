@@ -83,6 +83,15 @@ li {
  */
 h1, h2, h3, h4, h5, h6 {
     font-weight: $base-font-weight;
+    font-family: $kufi;
+    color: lighten(black, 25%);
+}
+
+p{
+  font-family: $naskh;
+  font-size: 18px;
+  line-height: 2;
+  color: lighten(black, 40%);
 }
 
 
